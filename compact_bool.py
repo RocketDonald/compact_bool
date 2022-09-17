@@ -1,4 +1,6 @@
 """
+Written by Donald Tsang 2022 - https://github.com/rocketDonald/
+
 This library provides a space-saving solution for storing 2D boolean array / matrix.
 
 This solution takes the advantage of 2-fold rotational symmetric property of square,
