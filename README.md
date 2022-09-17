@@ -35,6 +35,11 @@ a = mat.get(4, 0)
             print(mat.get(i, j)
 ```
 
+CompactBoolMatrix to normal boolean matrix
+```
+mat_normal = mat.compact_to_normal()
+```
+
     
 ## Algorithm:
 ### Space complexity:  
