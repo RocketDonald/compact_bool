@@ -136,7 +136,7 @@ Case 15:
 |  O  |  O  |
 +-----+-----+
 """
-import sys
+
 from ctypes import *
 from math import ceil
 
