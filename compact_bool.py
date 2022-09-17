@@ -4,7 +4,7 @@ Written by Donald Tsang 2022 - https://github.com/rocketDonald/
 This library provides a space-saving solution for storing 2D boolean array / matrix.
 
 This solution takes the advantage of 2-fold rotational symmetric property of square,
-such that only half the size is needed for storing such square matrix.
+such that only 1/4 the size is needed for storing such square matrix.
 
 Space complexity:
     -   Split a n*n sized matrix into 4 domains ==> 1/4 space
@@ -136,7 +136,7 @@ Case 15:
 |  O  |  O  |
 +-----+-----+
 """
-
+import sys
 from ctypes import *
 from math import ceil
 
@@ -391,4 +391,5 @@ if __name__ == '__main__':
     print(mat)
     normal_mat = mat.compact_to_normal()
     print(normal_mat)
-
+    print(sys.getsizeof(normal_mat))
+    print(sys.getsizeof(mat))

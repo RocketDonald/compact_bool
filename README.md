@@ -2,7 +2,7 @@
 This library provides a space-saving solution for storing 2D boolean array / matrix.
 
 This solution takes the advantage of 2-fold rotational symmetric property of square,  
-such that only half the size is needed for storing such square matrix.
+such that only 1/4 the size is needed for storing such square matrix.
 
 ## Usage:
 Download the python file and save it at the working directory.  
